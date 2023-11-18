@@ -1,0 +1,34 @@
+1. JQuery
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+2. JS Lightzoom
+<script src="https://wsxzaq127.github.io/lightzoom.js"></script>
+
+3. CSS Lightzoom
+<link rel="stylesheet" href="https://wsxzaq127.github.io/style.css" type="text/css">
+
+4. Çàïóñê ïëàãèíà
+<script type="text/javascript">
+  jQuery('.lightzoom').lightzoom();
+</script>
+
+5. Íàñòðîéêè 
+
+<script type="text/javascript">
+  ;( function( $ ) {
+
+$( '.lightzoom' ).lightzoom( {
+  speed:                 400,   // ñêîðîñòü ïîÿâëåíèÿ
+  imgPadding:            10,    // çíà÷åíèå îòñòóïà ó èçîáðàæåíèÿ
+  overlayOpacity:        '0.5', // ïðîçðà÷íîñòü ôîíà (îò 0 äî 1)
+  viewTitle:             false, // true, åñëè íàäî ïîêàçûâàòü ïîäïèñü ê èçîáàæåíèþ
+  isOverlayClickClosing: false, // true, åñëè íàäî çàêðûâàòü îêíî ïðè êëèêå ïî çàòåìíåííîé îáëàñòè
+  isWindowClickClosing:  false, // true, åñëè íàäî çàêðûâàòü îêíî ïðè êëèêå ïî ëþáîé îáëàñòè
+  isEscClosing:          false, // true, åñëè íàäî çàêðûâàòü îêíî ïðè íàæàòèè íà êíîïêó Esc
+  boxClass:              '',    // ïîçâîëÿåò çàäàâàòü êëàññ îêíó îáåðòêå (ñ âåðñèè 1.1.0)
+  overlayColor:          '',    // ïîçâîëÿåò çàäàâàòü öâåò ôîíó (ñ âåðñèè 1.1.0)
+  titleColor:            '',    // ïîçâîëÿåò çàäàâàòü öâåò ïîäïèñè (ñ âåðñèè 1.1.0)
+} );
+
+} )( jQuery );
+</script>
